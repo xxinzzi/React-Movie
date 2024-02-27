@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 function Movie({ id, coverImg, title, summary, genres }) {
-  //props는 object일 뿐, 그 object를 열어서 item을 꺼내 쓰는 것
   return (
     <div>
       <img src={coverImg} alt={title} />
